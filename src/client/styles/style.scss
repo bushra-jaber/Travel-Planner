@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding-left: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    label {
+        
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    
+    input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    button.search {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background: #5cb85c;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+
+        &:hover {
+            background: #4cae4c;
+        }
+    }
+}
+button {
+    &#saveTrip {
+      width: 20%;
+      border: 1px solid red;
+    }
+  
+    &#removeTrip {
+      width: 20%;
+      border: 1px solid red;
+    }
+  }
+
+#weather {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+}
+#weather.show{
+    display: block;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+#tripDetails{
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#tripDetails.show{
+    display: block; 
+}
+#locationInfo {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#locationInfo.show{
+    display: block;
+}
